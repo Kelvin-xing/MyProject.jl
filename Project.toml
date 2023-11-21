@@ -1,0 +1,13 @@
+name = "MyProject"
+uuid = "60ffd210-cb4a-4b67-821c-3a8992fe56ea"
+authors = ["Kelvin-Xing <kelvinx@connect.hku.hk> and contributors"]
+version = "1.0.0-DEV"
+
+[compat]
+julia = "1.9"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
